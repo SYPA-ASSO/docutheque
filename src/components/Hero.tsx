@@ -1,48 +1,60 @@
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br from-navy to-navy-light px-6 py-16 flex gap-8 items-start">
-      <div className="flex-1">
-        <span className="inline-block bg-white/15 text-white border border-white/30 rounded-full px-3 py-1 text-xs mb-4">
-          Rediges par des juristes francais
-        </span>
-        <h1 className="text-white text-3xl font-bold leading-tight">
-          Tous vos documents juridiques,
-          <span className="text-blue-300"> prets en quelques clics.</span>
-        </h1>
-        <p className="text-white/75 text-sm mt-4 leading-relaxed max-w-md">
-          Contrats, mises en demeure, RGPD, documents RH. Plus de 25 modeles conformes au droit francais, telechargeables en DOCX et PDF.
-        </p>
-        <div className="flex gap-3 mt-6">
-          <button className="bg-white text-navy-light font-semibold text-sm px-5 py-2.5 rounded-md hover:bg-gray-100 transition-colors">
-            Trouver mon document
-          </button>
-          <button className="bg-transparent text-white border border-white/40 text-sm px-5 py-2.5 rounded-md hover:bg-white/10 transition-colors">
-            Voir les tarifs
-          </button>
-        </div>
-        <div className="flex gap-5 mt-5">
-          <span className="text-white/70 text-xs">Sans abonnement obligatoire</span>
-          <span className="text-white/70 text-xs">DOCX et PDF</span>
-          <span className="text-white/70 text-xs">Mis a jour regulierement</span>
-        </div>
-      </div>
-      <div className="flex flex-col gap-3 min-w-44">
-        <div className="bg-white/12 border border-white/20 rounded-xl p-3 flex items-center gap-3">
-          <div>
-            <div className="text-white font-bold text-lg">25+</div>
-            <div className="text-white/60 text-xs">modeles disponibles</div>
+    <section style={{background: 'linear-gradient(135deg, #0f2d6e 0%, #1a4fba 100%)', padding: '4rem 0'}}>
+      <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem', display: 'flex', gap: '3rem', alignItems: 'flex-start'}}>
+        <div style={{flex: 1}}>
+          <span style={{display: 'inline-block', background: 'rgba(255,255,255,0.15)', color: 'white', border: '1px solid rgba(255,255,255,0.3)', borderRadius: '20px', padding: '3px 12px', fontSize: '11px', marginBottom: '16px'}}>
+            Rédigés par des juristes français
+          </span>
+          <h1 style={{color: 'white', fontSize: '2.2rem', fontWeight: '700', lineHeight: '1.3', margin: '0 0 16px 0'}}>
+            Tous vos documents juridiques,<br />
+            <span style={{color: '#93c5fd'}}>prêts en quelques clics.</span>
+          </h1>
+          <p style={{color: 'rgba(255,255,255,0.75)', fontSize: '1rem', lineHeight: '1.7', maxWidth: '480px', margin: '0 0 24px 0'}}>
+            Contrats, mises en demeure, RGPD, documents RH. Plus de 25 modèles conformes au droit français, téléchargeables en DOCX et PDF.
+          </p>
+          <div style={{display: 'flex', gap: '12px', marginBottom: '20px'}}>
+            <button style={{background: 'white', color: '#1a4fba', border: 'none', padding: '11px 22px', borderRadius: '6px', fontSize: '13px', fontWeight: '600', cursor: 'pointer'}}>
+              Trouver mon document →
+            </button>
+            <button style={{background: 'transparent', color: 'white', border: '1px solid rgba(255,255,255,0.4)', padding: '11px 22px', borderRadius: '6px', fontSize: '13px', cursor: 'pointer'}}>
+              Voir les tarifs
+            </button>
+          </div>
+          <div style={{display: 'flex', gap: '20px', flexWrap: 'wrap'}}>
+            <span style={{color: 'rgba(255,255,255,0.7)', fontSize: '12px'}}>✓ Sans abonnement obligatoire</span>
+            <span style={{color: 'rgba(255,255,255,0.7)', fontSize: '12px'}}>✓ DOCX et PDF</span>
+            <span style={{color: 'rgba(255,255,255,0.7)', fontSize: '12px'}}>✓ Mis à jour régulièrement</span>
           </div>
         </div>
-        <div className="bg-white/12 border border-white/20 rounded-xl p-3 flex items-center gap-3">
-          <div>
-            <div className="text-white font-bold text-lg">6</div>
-            <div className="text-white/60 text-xs">categories juridiques</div>
+        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', minWidth: '260px'}}>
+          <div style={{background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '12px', padding: '14px 16px', display: 'flex', alignItems: 'center', gap: '12px'}}>
+            <span style={{fontSize: '24px'}}>📄</span>
+            <div>
+              <div style={{color: 'white', fontWeight: '700', fontSize: '20px'}}>25+</div>
+              <div style={{color: 'rgba(255,255,255,0.6)', fontSize: '11px'}}>modèles disponibles</div>
+            </div>
           </div>
-        </div>
-        <div className="bg-white/12 border border-white/20 rounded-xl p-3 flex items-center gap-3">
-          <div>
-            <div className="text-white font-bold text-lg">100%</div>
-            <div className="text-white/60 text-xs">conformes droit francais</div>
+          <div style={{background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '12px', padding: '14px 16px', display: 'flex', alignItems: 'center', gap: '12px'}}>
+            <span style={{fontSize: '24px'}}>📂</span>
+            <div>
+              <div style={{color: 'white', fontWeight: '700', fontSize: '20px'}}>6</div>
+              <div style={{color: 'rgba(255,255,255,0.6)', fontSize: '11px'}}>catégories juridiques</div>
+            </div>
+          </div>
+          <div style={{background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '12px', padding: '14px 16px', display: 'flex', alignItems: 'center', gap: '12px'}}>
+            <span style={{fontSize: '24px'}}>🛡</span>
+            <div>
+              <div style={{color: '#4ade80', fontWeight: '700', fontSize: '20px'}}>100%</div>
+              <div style={{color: 'rgba(255,255,255,0.6)', fontSize: '11px'}}>conformes droit français</div>
+            </div>
+          </div>
+          <div style={{background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '12px', padding: '14px 16px', display: 'flex', alignItems: 'center', gap: '12px'}}>
+            <span style={{fontSize: '24px'}}>⏱</span>
+            <div>
+              <div style={{color: '#fbbf24', fontWeight: '700', fontSize: '20px'}}>48h</div>
+              <div style={{color: 'rgba(255,255,255,0.6)', fontSize: '11px'}}>réponse garantie</div>
+            </div>
           </div>
         </div>
       </div>
