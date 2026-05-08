@@ -5,7 +5,7 @@ export default function HowItWorks() {
       <section style={{background: '#f0f4ff', borderTop: '1px solid #e5e7eb', borderBottom: '1px solid #e5e7eb', padding: '4rem 0'}}>
         <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
           <div style={{textAlign: 'center', marginBottom: '2.5rem'}}>
-            <h2 style={{fontSize: '1.6rem', fontWeight: '700', color: '#0f2d6e'}}>Comment ça marche</h2>
+            <h2 style={{fontSize: '1.6rem', fontWeight: '700', color: '#0f2d6e'}}>Pour les documents, comment ça marche ?</h2>
             <p style={{color: '#6b7280', fontSize: '0.875rem', marginTop: '6px'}}>Simple, rapide, sans jargon.</p>
           </div>
           <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem'}}>
