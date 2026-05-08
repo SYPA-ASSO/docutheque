@@ -13,7 +13,7 @@ export default function HowItWorks() {
               <div style={{width: '28px', height: '28px', background: '#1a4fba', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '12px', fontWeight: '700', flexShrink: 0}}>1</div>
               <div>
                 <h3 style={{fontWeight: '600', color: '#0f2d6e', fontSize: '0.875rem'}}>Choisissez votre profil</h3>
-                <p style={{color: '#6b7280', fontSize: '0.75rem', marginTop: '4px', lineHeight: '1.6'}}>Employeur, salarié, consommateur, dirigeant ou DPO — chaque profil dispose de ses propres modèles adaptés à sa situation.</p>
+                <p style={{color: '#6b7280', fontSize: '0.75rem', marginTop: '4px', lineHeight: '1.6'}}>Employeur, salarié, consommateur, dirigeant, entrepreneur, bénévole ou DPO, quel que soit votre profil, chacun dispose de ses propres modèles de documents, adaptés à sa situation.</p>
               </div>
             </div>
             <div style={{background: 'white', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.5rem', display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
