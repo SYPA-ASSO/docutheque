@@ -20,7 +20,7 @@ export default function HowItWorks() {
               <div style={{width: '28px', height: '28px', background: '#1a4fba', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '12px', fontWeight: '700', flexShrink: 0}}>2</div>
               <div>
                 <h3 style={{fontWeight: '600', color: '#0f2d6e', fontSize: '0.875rem'}}>Sélectionnez votre document</h3>
-                <p style={{color: '#6b7280', fontSize: '0.75rem', marginTop: '4px', lineHeight: '1.6'}}>Plus de 25 modèles classés par catégorie et cas d'usage, couvrant l'ensemble des situations juridiques du quotidien.</p>
+                <p style={{color: '#6b7280', fontSize: '0.75rem', marginTop: '4px', lineHeight: '1.6'}}>Une bibliothèque de modèles en constante expansion, classés par catégorie et cas d'usage, couvrant l'ensemble des situations juridiques du quotidien, tant pour particuliers que professionnels ou acteurs associatifs.</p>
               </div>
             </div>
             <div style={{background: 'white', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.5rem', display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
