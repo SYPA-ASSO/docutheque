@@ -39,7 +39,7 @@ export default function HowItWorks() {
         <div style={{maxWidth: '1200px', margin: '0 auto', padding: '0 2rem'}}>
           <div style={{textAlign: 'center', marginBottom: '2.5rem'}}>
             <h2 style={{fontSize: '1.6rem', fontWeight: '700', color: '#0f2d6e'}}>Vos droits expliqués, par un juriste</h2>
-            <p style={{color: '#6b7280', fontSize: '0.875rem', marginTop: '6px'}}>Une question juridique ? Nous vous répondons en clair, sans jargon, sous 24 à 48h.</p>
+            <p style={{color: '#6b7280', fontSize: '0.875rem', marginTop: '6px'}}>Une question sur vos droits ? Nous vous aidons à mieux les comprendre. Nous vous répondons en vous expliquant le droit, en clair, sans jargon, sous 24 à 48h.</p>
           </div>
           <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem'}}>
             <div style={{background: 'white', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.5rem', display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
@@ -53,7 +53,7 @@ export default function HowItWorks() {
               <div style={{width: '28px', height: '28px', background: '#0f2d6e', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontSize: '12px', fontWeight: '700', flexShrink: 0}}>2</div>
               <div>
                 <h3 style={{fontWeight: '600', color: '#0f2d6e', fontSize: '0.875rem'}}>Choisissez votre formule</h3>
-                <p style={{color: '#6b7280', fontSize: '0.75rem', marginTop: '4px', lineHeight: '1.6'}}>Abonné Premium ? La première question est incluse, les suivantes à 9,90 €. Sans abonnement ? Accédez directement à l'offre unitaire <em>Information sur vos droits</em> à 47 €, sans engagement.</p>
+                <p style={{color: '#6b7280', fontSize: '0.75rem', marginTop: '4px', lineHeight: '1.6'}}>Abonné Premium ? La première question est incluse, les suivantes à 9,90 €. Sans abonnement ? Accédez directement à l'offre unitaire <em>Information sur vos droits</em> à 47 €, sans abonnement ni engagement.</p>
               </div>
             </div>
             <div style={{background: 'white', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.5rem', display: 'flex', gap: '1rem', alignItems: 'flex-start'}}>
